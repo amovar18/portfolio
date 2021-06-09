@@ -2,116 +2,64 @@ import React from 'react';
 
 export default function Services(){
     return(
-        <section id="services" className="s-services target-section h-dark-bg">
-        
-        <div className="row s-services__content">
+        <div id="services" className="container">
+            <div className="row">
+                <div className="column large-6 s-services__leftcol">
+                    <div className="div-intro" data-num="02" data-aos="fade-up">
+                        <p className="display-6">Expertise</p>
 
-            <div className="vert-line"></div>
+                        <p className="display-6">
+                            <small>I work on building Single Page Applications using React framework.</small>
+                        </p>
+                    </div>
 
-            <div className="column large-6 s-services__leftcol">
-                <div className="section-intro" data-num="02" data-aos="fade-up">
-                    <h3 className="subhead">Expertise</h3>
-
-                    <h1 className="display-1">
-                    I focus on crafting web experiences
-                    and designs that works.
-                    </h1>
-                </div>
-
-                <p className="lead" data-aos="fade-up">
-                Suspendisse eu ligula. Duis arcu tortor, suscipit eget, 
-                imperdiet nec, imperdiet iaculis, ipsum. Nulla facilisi.
-                Etiam rhoncus. Praesent blandit laoreet nibh.
-                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
-                Cras sagittis. Praesent egestas tristique nibh.
+                <p className="lead">
+                    I guess my left hemisphere of my brain is more dominant because I cannot design creatively, but I can
+                    convert designs into working UI's. I work mainly on the following areas.
                 </p>
             </div>
-
-            <div className="column large-6">
-                <ul className="services-list" data-aos="fade-up">
-                    <li className="services-list__item is-active">
-                        <div className="services-list__item-header">
-                            <h5>Product Design</h5>
+            <div className='row'>
+                <div className="accordion" id="accordionExample">
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingOne">
+                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Frontend Development
+                            </button>
+                        </h2>
+                        <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div className="accordion-body">
+                                I work with HTML, CSS, JavaScript and Bootstrap. Along with that I also work with Javascript frameworks like React.js, Redux etc. I can easily adapt to any new framework and learn things on the go its how I learnt Docker.
+                            </div>
                         </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Fusce egestas elit eget lorem. Donec venenatis vulputate lorem. 
-                            Nam at tortor in tellus interdum sagittis. Vestibulum fringilla 
-                            pede sit amet augue. Praesent blandit laoreet nibh.
-                            Donec quam felis, ultricies nec, pellentesque eu.
-                            </p>
+                    </div>
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingTwo">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Android Development
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div className="accordion-body">
+                                Android application development is another one of my strong suite. I have deployed my own android application on playstore and I tend to playaround with Android SDK along with firebase for IoT projects. I mainly create my android applications in Java but I can learn new frameworks easily.
+                            </div>
                         </div>
-                    </li> 
-                    <li className="services-list__item">
-                        <div className="services-list__item-header">
-                            <h5>Branding</h5>
+                    </div>
+                    <div className="accordion-item">
+                        <h2 className="accordion-header" id="headingThree">
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Backend Development
+                            </button>
+                        </h2>
+                        <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div className="accordion-body">
+                                Backend development is another thing that I can do. I can create custom REST API and deploy them on cloud platforms like heroku, GCP etc. I can easily work with NoSQL and SQL databases like Firebase Realtime database, MongoDB, PostgreSQL, MySQL etc. I have created many REST API in the past using PHP, NodeJS etc.
+                            </div>
                         </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Sed cursus turpis vitae tortor. Sed aliquam ultrices mauris. 
-                            Fusce fermentum. Curabitur turpis. Nunc egestas, augue at pellentesque 
-                            laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. 
-                            In consectetuer turpis ut velit. Curabitur at lacus.
-                            </p>
-                        </div>
-                    </li> 
-                    <li className="services-list__item">
-                        <div className="services-list__item-header">
-                            <h5>Frontend Development</h5>
-                        </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam vitae tortor. 
-                            Ut tincidunt tincidunt erat. Praesent nonummy mi in odio. Praesent ut 
-                            ligula non mi varius sagittis. Curabitur turpis. Nunc egestas, augue at pellentesque 
-                            laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.
-                            </p>
-                        </div>
-                    </li> 
-                    <li className="services-list__item">
-                        <div className="services-list__item-header">
-                            <h5>UX Research</h5>
-                        </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Nullam quis ante. Sed libero. Curabitur at lacus ac velit ornare lobortis. 
-                            Morbi nec metus. Aenean vulputate eleifend tellus. Nullam vel sem. Nam ipsum risus, 
-                            rutrum vitae, vestibulum eu, molestie vel, lacus. Phasellus ullamcorper ipsum rutrum nunc. 
-                            Cras dapibus. Praesent egestas neque eu enim.
-                            </p>
-                        </div>
-                    </li> 
-                    <li className="services-list__item">
-                        <div className="services-list__item-header">
-                            <h5>Visual Design</h5>
-                        </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Ut id nisl quis enim dignissim sagittis. Pellentesque egestas, neque sit amet convallis 
-                            pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Phasellus volutpat, 
-                            metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. 
-                            Cras dapibus. Praesent adipiscing.
-                            </p>
-                        </div>
-                    </li> 
-                    <li className="services-list__item">
-                        <div className="services-list__item-header">
-                            <h5>E-Commerce</h5>
-                        </div>
-                        <div className="services-list__item-body">
-                            <p>
-                            Praesent ac sem eget est egestas volutpat. Nam pretium turpis et arcu. Quisque ut nisi. 
-                            Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque 
-                            ante vel mi. Phasellus dolor. Aenean vulputate eleifend tellus. Nullam vel sem. Nam ipsum risus, 
-                            rutrum vitae, vestibulum eu, molestie vel.
-                            </p>
-                        </div>
-                    </li> 
-                </ul> 
+                    </div>
+                </div>
             </div>
-
         </div>
-
-    </section>
+        <hr/>
+    </div>
     )
 }

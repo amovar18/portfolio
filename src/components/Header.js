@@ -1,30 +1,34 @@
-import React from 'react';
-
-export default function Header(){
-    return(
-        <header className="s-header">
-            <div className="header-logo">
-                <a href="index.html">
-                    <img src="images/logo.svg" alt="Homepage"/>
-                </a>
-            </div>
-
-            <div className="header-content">
-                <nav className="row header-nav-wrap">
-                    <ul className="header-nav">
-                        <li><a className="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                        <li><a className="smoothscroll" href="#about" title="About">About</a></li>
-                        <li><a className="smoothscroll" href="#services" title="Services">Services</a></li>
-                        <li><a className="smoothscroll" href="#portfolio" title="Works">Works</a></li>
-                        <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
-                    </ul>
-                </nav>
-
-                <a href="#0" className="btn btn--stroke btn--small">Download CV</a>
-
-            </div>
-
-            <a className="header-menu-toggle" href="#0"><span>Menu</span></a>
-    </header> 
-    )
+import React from "react";
+export default function Header() {
+    const links=[
+        {title:'Home',path:'#Home'},
+        {title:'About Me',path:'/#about'},
+        {title:'Education',path:'/#education'},
+        {title:'Expertise',path:'/#services'},
+        {title:'Projects',path:'/#projects'},
+        {title:'Contact Me',path:'/#contact'},
+        {title:'Resume',path:'#resume'},
+    ];
+    return (
+            <nav className='navbar navbar-expand-lg navbar-light' style={{'backgroundColor':'#B0E0E6'}}>
+                <div className='container-fluid'>
+                    <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarToggler' aria-controls='navbarToggler' aria-expanded='false' aria-label='Toggle navigation'>
+                          <span className='navbar-toggler-icon'></span>
+                    </button>
+                    <div className='collapse navbar-collapse' id='navbarToggler'>
+                        <div className='ms-auto p-2 bd-highlight'>
+                            <ul className='navbar-nav mb-2 mb-lg-0'>
+                                {links!==undefined ? links.map(({title,path})=>(
+                                    <li className='nav-item' key={title}>
+                                        <a className='nav-link' style={{'color':'#750D37'}} aria-current='page' href={path}>
+                                            {title}
+                                        </a>
+                                    </li>
+                                )):null}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    );
 }

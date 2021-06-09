@@ -2,22 +2,19 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
-import Experiences from './components/Experiences';
-import Contact from './components/Contact';
+import Briefdetails from './components/Briefdetails';
 import Services from './components/Services';
+import Aboutme from './components/Aboutme';
+import Education from './components/Education';
 function App() {
   return (
-    <div>
-        <div id="preloader">
-          <div id="loader" className="dots-fade">
-              <div></div>
-              <div></div>
-              <div></div>
-          </div>
-      </div>
+    <div id='Home'>
       <Header/>
-      <Contact/>
-      <Experiences/>
+      <br/><br/>
+      <br/>
+      <Briefdetails/>
+      <Aboutme/>
+      <Education/>
       <Services/>
       <Projects/>
       <Footer/>
