@@ -2,23 +2,23 @@ import React from 'react';
 
 export default function Services(){
     return(
-        <section id="services" class="s-services target-section h-dark-bg">
+        <section id="services" className="s-services target-section h-dark-bg">
         
-        <div class="row s-services__content">
+        <div className="row s-services__content">
 
-            <div class="vert-line"></div>
+            <div className="vert-line"></div>
 
-            <div class="column large-6 s-services__leftcol">
-                <div class="section-intro" data-num="02" data-aos="fade-up">
-                    <h3 class="subhead">Expertise</h3>
+            <div className="column large-6 s-services__leftcol">
+                <div className="section-intro" data-num="02" data-aos="fade-up">
+                    <h3 className="subhead">Expertise</h3>
 
-                    <h1 class="display-1">
+                    <h1 className="display-1">
                     I focus on crafting web experiences
                     and designs that works.
                     </h1>
                 </div>
 
-                <p class="lead" data-aos="fade-up">
+                <p className="lead" data-aos="fade-up">
                 Suspendisse eu ligula. Duis arcu tortor, suscipit eget, 
                 imperdiet nec, imperdiet iaculis, ipsum. Nulla facilisi.
                 Etiam rhoncus. Praesent blandit laoreet nibh.
@@ -27,13 +27,13 @@ export default function Services(){
                 </p>
             </div>
 
-            <div class="column large-6">
-                <ul class="services-list" data-aos="fade-up">
-                    <li class="services-list__item is-active">
-                        <div class="services-list__item-header">
+            <div className="column large-6">
+                <ul className="services-list" data-aos="fade-up">
+                    <li className="services-list__item is-active">
+                        <div className="services-list__item-header">
                             <h5>Product Design</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Fusce egestas elit eget lorem. Donec venenatis vulputate lorem. 
                             Nam at tortor in tellus interdum sagittis. Vestibulum fringilla 
@@ -42,11 +42,11 @@ export default function Services(){
                             </p>
                         </div>
                     </li> 
-                    <li class="services-list__item">
-                        <div class="services-list__item-header">
+                    <li className="services-list__item">
+                        <div className="services-list__item-header">
                             <h5>Branding</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Sed cursus turpis vitae tortor. Sed aliquam ultrices mauris. 
                             Fusce fermentum. Curabitur turpis. Nunc egestas, augue at pellentesque 
@@ -55,11 +55,11 @@ export default function Services(){
                             </p>
                         </div>
                     </li> 
-                    <li class="services-list__item">
-                        <div class="services-list__item-header">
+                    <li className="services-list__item">
+                        <div className="services-list__item-header">
                             <h5>Frontend Development</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Suspendisse non nisl sit amet velit hendrerit rutrum. Etiam vitae tortor. 
                             Ut tincidunt tincidunt erat. Praesent nonummy mi in odio. Praesent ut 
@@ -68,11 +68,11 @@ export default function Services(){
                             </p>
                         </div>
                     </li> 
-                    <li class="services-list__item">
-                        <div class="services-list__item-header">
+                    <li className="services-list__item">
+                        <div className="services-list__item-header">
                             <h5>UX Research</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Nullam quis ante. Sed libero. Curabitur at lacus ac velit ornare lobortis. 
                             Morbi nec metus. Aenean vulputate eleifend tellus. Nullam vel sem. Nam ipsum risus, 
@@ -81,11 +81,11 @@ export default function Services(){
                             </p>
                         </div>
                     </li> 
-                    <li class="services-list__item">
-                        <div class="services-list__item-header">
+                    <li className="services-list__item">
+                        <div className="services-list__item-header">
                             <h5>Visual Design</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Ut id nisl quis enim dignissim sagittis. Pellentesque egestas, neque sit amet convallis 
                             pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Phasellus volutpat, 
@@ -94,11 +94,11 @@ export default function Services(){
                             </p>
                         </div>
                     </li> 
-                    <li class="services-list__item">
-                        <div class="services-list__item-header">
+                    <li className="services-list__item">
+                        <div className="services-list__item-header">
                             <h5>E-Commerce</h5>
                         </div>
-                        <div class="services-list__item-body">
+                        <div className="services-list__item-body">
                             <p>
                             Praesent ac sem eget est egestas volutpat. Nam pretium turpis et arcu. Quisque ut nisi. 
                             Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque 

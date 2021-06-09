@@ -1,21 +1,21 @@
 import React from 'react';
 
-export default function Expericences(){
+function Experiences(){
     return(
-        <section id="about" class="s-about target-section">
-            <div class="s-about__section s-about__section--profile">
-                <div class="right-vert-line"></div>
-                <div class="row">
-                    <div class="column large-6 medium-8 tab-full">
+        <section id="about" className="s-about target-section">
+            <div className="s-about__section s-about__section--profile">
+                <div className="right-vert-line"></div>
+                <div className="row">
+                    <div className="column large-6 medium-8 tab-full">
 
-                        <div class="section-intro" data-num="01" data-aos="fade-up">
-                            <h3 class="subhead">About Me</h3>
-                            <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                        <div className="section-intro" data-num="01" data-aos="fade-up">
+                            <h3 className="subhead">About Me</h3>
+                            <h1 className="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
                         </div>
 
-                        <div class="profile-pic" data-aos="fade-up">
-                            <img src="images/profile-pic.jpg" 
-                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt=""/>
+                        <div className="profile-pic" data-aos="fade-up">
+                            <img src={"/images/profile-pic.jpg"}
+                             srcSet="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt=""/>
                         </div>
 
                         <h3 data-aos="fade-up">Profile</h3>
@@ -34,5 +34,7 @@ export default function Expericences(){
             </div> 
 
         </section>
-    )
+    );
 }
+
+export default Experiences;

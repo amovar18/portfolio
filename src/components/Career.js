@@ -2,24 +2,24 @@ import React from 'react';
 
 export default function Career(){
     return(
-        <div class="s-about__section">
+        <div className="s-about__section">
 
-                <div class="row">
-                    <div class="column">
+                <div className="row">
+                    <div className="column">
                         <h3 data-aos="fade-up">Career</h3>
                     </div>
                 </div>
 
-                <div class="row block-large-1-2 block-900-full work-positions">
+                <div className="row block-large-1-2 block-900-full work-positions">
 
-                    <div class="column" data-aos="fade-up">
-                        <div class="position">
-                            <div class="position__header">
+                    <div className="column" data-aos="fade-up">
+                        <div className="position">
+                            <div className="position__header">
                                 <h6>
-                                    <span class="position__co">Google</span>
-                                    <span class="position__pos">Product Designer</span>
+                                    <span className="position__co">Google</span>
+                                    <span className="position__pos">Product Designer</span>
                                 </h6>
-                                <div class="position__timeframe">
+                                <div className="position__timeframe">
                                     June 2017 - Present
                                 </div>
                             </div>
@@ -31,14 +31,14 @@ export default function Career(){
                             </p>
                         </div>
                     </div> 
-                    <div class="column" data-aos="fade-up">
-                        <div class="position">
-                            <div class="position__header">
+                    <div className="column" data-aos="fade-up">
+                        <div className="position">
+                            <div className="position__header">
                                 <h6>
-                                    <span class="position__co">Facebook</span>
-                                    <span class="position__pos">UX Director</span>
+                                    <span className="position__co">Facebook</span>
+                                    <span className="position__pos">UX Director</span>
                                 </h6>
-                                <div class="position__timeframe">
+                                <div className="position__timeframe">
                                     August 2015 - June 2017
                                 </div>
                             </div>
@@ -50,14 +50,14 @@ export default function Career(){
                             </p>
                         </div>
                     </div>
-                    <div class="column" data-aos="fade-up">
-                        <div class="position">
-                            <div class="position__header">
+                    <div className="column" data-aos="fade-up">
+                        <div className="position">
+                            <div className="position__header">
                                 <h6>
-                                    <span class="position__co">Dropbox</span>
-                                    <span class="position__pos">Mobile App Designer</span>
+                                    <span className="position__co">Dropbox</span>
+                                    <span className="position__pos">Mobile App Designer</span>
                                 </h6>
-                                <div class="position__timeframe">
+                                <div className="position__timeframe">
                                     April 2014 - August 2015
                                 </div>
                             </div>
@@ -69,14 +69,14 @@ export default function Career(){
                             </p>
                         </div>
                     </div>
-                    <div class="column" data-aos="fade-up">
-                        <div class="position">
-                            <div class="position__header">
+                    <div className="column" data-aos="fade-up">
+                        <div className="position">
+                            <div className="position__header">
                                 <h6>
-                                    <span class="position__co">Microsoft</span>
-                                    <span class="position__pos">Product Designer</span>
+                                    <span className="position__co">Microsoft</span>
+                                    <span className="position__pos">Product Designer</span>
                                 </h6>
-                                <div class="position__timeframe">
+                                <div className="position__timeframe">
                                     June 2012 - February 2014
                                 </div>
                             </div>
