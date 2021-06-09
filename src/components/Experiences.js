@@ -1,25 +1,20 @@
 import React from 'react';
-
 function Experiences(){
     return(
-        <section id="about" className="s-about target-section">
-            <div className="s-about__section s-about__section--profile">
-                <div className="right-vert-line"></div>
-                <div className="row">
-                    <div className="column large-6 medium-8 tab-full">
-
-                        <div className="section-intro" data-num="01" data-aos="fade-up">
-                            <h3 className="subhead">About Me</h3>
-                            <h1 className="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+        <section id="about" className = "s-about target-section">
+            <div className = "s-about__section s-about__section--profile">
+                <div className = "right-vert-line"></div>
+                <div className = "row">
+                    <div className = "column large-6 medium-8 tab-full">
+                        <div className = "section-intro" data-num="01" data-aos="fade-up">
+                            <h3 className = "subhead">About Me</h3>
+                            <h1 className = "display-1">I'm the kind of person who isn't afraid of challenges.</h1>
                         </div>
-
-                        <div className="profile-pic" data-aos="fade-up">
+                        <div className = "profile-pic" data-aos="fade-up">
                             <img src={"/images/profile-pic.jpg"}
                              srcSet="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt=""/>
                         </div>
-
                         <h3 data-aos="fade-up">Profile</h3>
-
                         <p data-aos="fade-up">
                         In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
                         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
@@ -30,9 +25,7 @@ function Experiences(){
                         </p>
                     </div>
                 </div>
-
-            </div> 
-
+            </div>
         </section>
     );
 }
