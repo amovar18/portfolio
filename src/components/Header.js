@@ -7,7 +7,6 @@ export default function Header() {
         {title:'Expertise',path:'/#services'},
         {title:'Projects',path:'/#projects'},
         {title:'Contact Me',path:'/#contact'},
-        {title:'Resume',path:'#resume'},
     ];
     return (
             <nav className='navbar navbar-expand-lg navbar-light' style={{'backgroundColor':'#B0E0E6'}}>
